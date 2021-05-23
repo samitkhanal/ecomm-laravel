@@ -1,4 +1,5 @@
-  <!-- Footer -->
+<div style="clear-both" class="panel panel-default">
+      <!-- Footer -->
   <footer
           class="text-center text-lg-start text-white"
           style="background-color: #1c2331"
@@ -139,3 +140,5 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
+
+</div>

@@ -21,6 +21,11 @@
 
   </script>
 
+<!--add by me for slider-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <style>
@@ -28,6 +33,51 @@
             height:500px;
             padding-top:100px;
         }
+        img.slider-img{
+            height: 600px !important;
+
+        }
+        img.slider-center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .custom-product{
+            height:900px;
+        }
+        .slider-text{
+            background-color: #35443585 !important;
+        }
+        .trending-wrapping{
+            margin:30px;
+        }
+        .trending-image{
+            height:100px;
+        }
+
+        .trending-item{
+
+            float:left;
+            width:19.5%;
+            border: 1px solid black;
+            margin-right:3px;
+            text-align:center
+        }
+        img.trending-center{
+            margin-top:20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .detail-img{
+            height:300px;
+        }
+        .search-box{
+            width:500px !important
+        }
+
+
+
     </style>
 </body>
     {{View::make('header')}}
